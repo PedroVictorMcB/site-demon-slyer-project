@@ -22,8 +22,10 @@ body::before{
     -webkit-text-stroke: 1px #b00c17;
 }
 .cabecalho .selecao-afiliacao{
+    font-family: "Carter One", cursive;
     font-size: 40px;
     text-align: center;
+    -webkit-text-stroke: 0.5px #210003;
 }
 .selecao-personagens{
     display: flex;
@@ -63,8 +65,8 @@ body::before{
 }
 .personagem-selecionado{
     text-align: center;
-    max-height: 784px;
     max-width: 940px;
+    max-height: 784px;
 }
 .personagem-selecionado .personagem-grande{
     width: 912px;

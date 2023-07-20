@@ -24,7 +24,7 @@ personagens.forEach((personagem) => {
         const imagemPersonagemGrande = document.querySelector('.personagem-grande');
         const idPersonagem = personagem.attributes.id.value;
         
-        imagemPersonagemGrande.src = `./src/img-db/perfil-${idPersonagem}.jpg`; //ajuste os nomes das imgs para funcionar
+        imagemPersonagemGrande.src = `./src/img-db/perfil-${idPersonagem}-whcorrected.jpg`; //ajuste os nomes das imgs para funcionar
         //pesquisar sobre interpolação template string
 
         const nomePersonagem = document.getElementById('nome-personagem');
